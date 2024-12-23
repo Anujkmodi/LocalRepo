@@ -1,1 +1,19 @@
-<p>This is a new paragraph</p>
+<html>
+    <body>
+<p>This is a new paragraph</p><br>
+<h1>I should practice on js ,java,react ,sql and spring.</h1><br>
+<h2>Days of learning start from 22-12-24</h2><br>
+<h4 id="aa"></h4>
+<input type="text" value="Days no" onclick="learnday()">
+
+<script>
+    var day=1;
+    function learnday()
+    {
+        var obj = document.getElementsByTagName("input");
+        obj[0].innerHTML=day;
+        day++;
+    }
+</script>
+</body>
+</html>
